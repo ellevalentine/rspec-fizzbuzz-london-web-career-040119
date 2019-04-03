@@ -1,18 +1,14 @@
 def fizzbuzz(num)
   
     
-    if ((num.Float % 3 == 0) && (num.Float % 5 == 0))
-      return "FizzBuzz"
+    if num % 3 == 0 && num % 5 == 0
+       "FizzBuzz"
       
-    elsif (num.Float % 3 == 0)
-      return "Fizz"
+    elsif num % 3 == 0
+       "Fizz"
       
-    elsif (num.Float % 5 == 0)
-      return "Buzz"
+    elsif num % 5 == 0
+       "Buzz"
       
-    else
-      return "nil"
-      
-    end
   end
 end
